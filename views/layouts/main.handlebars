@@ -16,64 +16,13 @@
 
 <body>
 
-    <!-- Page Container -->
-    <div class="container">
-
-        <br>
-
-        <!-- Burger Image -->
-        <center>
-            <div class="row">
-                <img src="/assets/img/burger.png">
-            </div>
-        </center>
-
-        <!-- Page Title -->
-        {{!-- <center>
-            <h1 class="purp_font">Eat-Da-Burger!</h1>
-        </center>
-
-        <br> --}}
-
-        <!-- Burger Content from index.handlebars -->
-        {{{body}}}
-
-
-        <br><br>
-
-        <!-- Input New Burgers Form -->
-        <form action="burger/create" method="POST">
-
-            <!-- Text Area Input -->
-            <div class="row">
-                <!-- Empty Div to help center textarea -->
-                <div class="col-md-3"></div>
-
-                <!-- Burger Input Box -->
-                <div class="form-group col-md-6">
-                    <center><label for="new_burger" class="purp_font">Create your own burger and place your
-                            order!</label>
-                    </center>
-                    <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
-                </div>
-
-                <!-- Empty Div to help center textarea -->
-                <div class="col-md-3"></div>
-            </div>
-
-            <!-- Submit Button -->
-            <center>
-                <button id="submit-button" type="submit" class="btn btn-danger">Place Order</button>
-            </center>
-
-        </form>
-
-        <br>
-
-    </div>
+    <!-- Burger Content from index.handlebars -->
+    {{{body}}}
 
     <!-- Link in jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="/assets/js/burgers.js"></script>
+
 </body>
 
 </html>
