@@ -27,7 +27,7 @@ $(function () {
     });
 
     //Click event to throw away/delete burger.
-    $(".delete-burger").on("click", function (event) {
+    $(".delete-button").on("click", function (event) {
         var id = $(this).data("id");
 
         // Send the DELETE request using ajax.
