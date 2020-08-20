@@ -3,9 +3,27 @@ body {
 }
 
 img {
-  width: 30%;
+  width: 20%;
 }
 
 .purp_font {
   color: #d813d8;
+}
+
+.row {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#submit-button {
+  background-color: rgb(178, 180, 43);
+}
+
+#new_burger.form-control {
+  text-align: center;
+}
+
+.delete-button {
+  background-color: crimson;
+  color: white;
 }
