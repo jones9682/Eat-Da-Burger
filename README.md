@@ -20,7 +20,7 @@ Eat-Da-Burger! is a full stack, MVC (Model-View-Controller) application that all
 
 ## Live App Link
 
-- [Heroku App Link](https://floating-meadow-42830.herokuapp.com/)
+- [Heroku App Link](https://eat-da-burger-42830.herokuapp.com/)
 
 # Mobile screen capture
 
