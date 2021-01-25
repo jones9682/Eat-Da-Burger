@@ -39,7 +39,7 @@ Bobby Jones Jr.
 ``
 ## Repository
 
-- [Project Repo](https://github.com/jones9682/Good-README-Generator)
+- [Project Repo](https://github.com/jones9682/Eat-Da-Burger)
 
 ## Questions
 
